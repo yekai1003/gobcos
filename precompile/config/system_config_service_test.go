@@ -4,9 +4,9 @@ import (
 	"testing"
 	"context"
 
-	"github.com/KasperLiu/gobcos/client"
-	"github.com/KasperLiu/gobcos/crypto"
-	"github.com/KasperLiu/gobcos/accounts/abi/bind"
+	"github.com/yekai1003/gobcos/client"
+	"github.com/yekai1003/gobcos/crypto"
+	"github.com/yekai1003/gobcos/accounts/abi/bind"
 )
 
 func TestSetValueByKey(t *testing.T) {

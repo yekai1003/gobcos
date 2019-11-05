@@ -28,9 +28,9 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
-	"github.com/KasperLiu/gobcos/accounts"
-	"github.com/KasperLiu/gobcos/common"
-	"github.com/KasperLiu/gobcos/crypto"
+	"github.com/yekai1003/gobcos/accounts"
+	"github.com/yekai1003/gobcos/common"
+	"github.com/yekai1003/gobcos/crypto"
 
 	"github.com/pborman/uuid"
 )

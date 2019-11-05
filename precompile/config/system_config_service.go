@@ -5,10 +5,10 @@ import (
 	"crypto/ecdsa"
 	"math/big"
 
-	"github.com/KasperLiu/gobcos/client"
-	"github.com/KasperLiu/gobcos/common"
-	"github.com/KasperLiu/gobcos/accounts/abi/bind"
-	"github.com/KasperLiu/gobcos/core/types"
+	"github.com/yekai1003/gobcos/client"
+	"github.com/yekai1003/gobcos/common"
+	"github.com/yekai1003/gobcos/accounts/abi/bind"
+	"github.com/yekai1003/gobcos/core/types"
 )
 
 // SystemConfigService is a precompile contract service.

@@ -1,4 +1,4 @@
-module github.com/KasperLiu/gobcos
+module github.com/yekai1003/gobcos
 
 go 1.12
 

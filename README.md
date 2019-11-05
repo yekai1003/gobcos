@@ -1,7 +1,7 @@
 # gobcos
 
 
-[![Build Status](https://travis-ci.com/KasperLiu/gobcos.svg?branch=master)](https://travis-ci.com/KasperLiu/gobcos)
+[![Build Status](https://travis-ci.com/yekai1003/gobcos.svg?branch=master)](https://travis-ci.com/yekai1003/gobcos)
 
 Golang Client For FISCO BCOS 2.0.0
 
@@ -26,7 +26,7 @@ FISCO BCOS Go语言版本的SDK，借助以太坊代码进行改进，主要实�
 在使用控制台需要先拉取代码或下载代码，然后对配置文件`gobcos_config.yaml`进行更改:
 
 ```bash
-git clone https://github.com/KasperLiu/gobcos.git
+git clone https://github.com/yekai1003/gobcos.git
 cd gobcos
 
 #nano gobcos_config.yaml
@@ -62,7 +62,7 @@ gobcos help
 以下的示例是通过`import`的方式来使用`gobcos`，如引入RPC控制台库:
 
 ```go
-import "github.com/KasperLiu/gobcos/client"
+import "github.com/yekai1003/gobcos/client"
 ```
 
 ## RPC API 测试
@@ -72,7 +72,7 @@ import "github.com/KasperLiu/gobcos/client"
 首先需要拉取代码：
 
 ```shell
-git clone https://github.com/KasperLiu/gobcos.git
+git clone https://github.com/yekai1003/gobcos.git
 ```
 
 进行代码测试前，请先按照实际部署节点的RPC URL更改`client/goclient_test.go`中的默认的FISCO BCOS RPC连接以及群组ID：
@@ -115,7 +115,7 @@ go test -v -count=1 ./client
 在测试成功后，可以在用户的工程项目中引用gobcos的RPC客户端，以调用RPC方法，所有的方法返回的是`[]byte`，用户可根据实际需要做进一步的JSON解析：
 
 ```go
-import "github.com/KasperLiu/gobcos/client"
+import "github.com/yekai1003/gobcos/client"
 ```
 
 下面假设有一个`block.go`文件需要获取FISCO BCOS 区块链的某一个区块的信息，则在引入客户端代码包后首先需要初始化客户端，提供需要连接的FISCO BCOS区块链的RPC URL及群组ID：
@@ -124,7 +124,7 @@ import "github.com/KasperLiu/gobcos/client"
 package main
 import (
     "context"
-    "github.com/KasperLiu/gobcos/client"
+    "github.com/yekai1003/gobcos/client"
 )
 
 func main() {
@@ -200,7 +200,7 @@ solc --version
 3.构建`gobcos`的代码生成工具`abigen`
 
 ```bash
-git clone https://github.com/KasperLiu/gobcos.git # 下载gobcos代码，如已下载请跳过
+git clone https://github.com/yekai1003/gobcos.git # 下载gobcos代码，如已下载请跳过
 cd gobcos # 进入代码目录
 go build ./cmd/abigen # 编译生成abigen工具
 ```
@@ -301,8 +301,8 @@ import (
     "fmt"
     "log"
     "os"
-    "github.com/KasperLiu/gobcos/crypto"
-    "github.com/KasperLiu/gobcos/common/hexutil"
+    "github.com/yekai1003/gobcos/crypto"
+    "github.com/yekai1003/gobcos/common/hexutil"
 )
 
 func main() {
@@ -347,9 +347,9 @@ package main
 import (
     "fmt"
     "log"
-    "github.com/KasperLiu/gobcos/client"
-    "github.com/KasperLiu/gobcos/accounts/abi/bind"
-    "github.com/KasperLiu/gobcos/crypto"
+    "github.com/yekai1003/gobcos/client"
+    "github.com/yekai1003/gobcos/accounts/abi/bind"
+    "github.com/yekai1003/gobcos/crypto"
     store "contract/testfile" // import Store.go
 )
 
@@ -384,8 +384,8 @@ package main
 import (
     "fmt"
     "log"
-    "github.com/KasperLiu/gobcos/common"
-    "github.com/KasperLiu/gobcos/client"
+    "github.com/yekai1003/gobcos/common"
+    "github.com/yekai1003/gobcos/client"
     store "contract/testfile" // for demo
 )
 
@@ -416,9 +416,9 @@ package main
 import (
     "fmt"
     "log"
-    "github.com/KasperLiu/gobcos/common"
-    "github.com/KasperLiu/gobcos/client"
-    "github.com/KasperLiu/gobcos/accounts/abi/bind"
+    "github.com/yekai1003/gobcos/common"
+    "github.com/yekai1003/gobcos/client"
+    "github.com/yekai1003/gobcos/accounts/abi/bind"
     store "contract/testfile" // for demo
 )
 
@@ -457,10 +457,10 @@ import (
     "fmt"
     "log"
     "context"
-    "github.com/KasperLiu/gobcos/common"
-    "github.com/KasperLiu/gobcos/client"
-    "github.com/KasperLiu/gobcos/accounts/abi/bind"
-    "github.com/KasperLiu/gobcos/crypto"
+    "github.com/yekai1003/gobcos/common"
+    "github.com/yekai1003/gobcos/client"
+    "github.com/yekai1003/gobcos/accounts/abi/bind"
+    "github.com/yekai1003/gobcos/crypto"
     store "contract/testfile" // for demo
 )
 

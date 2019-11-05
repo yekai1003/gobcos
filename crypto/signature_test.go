@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 	
-	"github.com/KasperLiu/gobcos/common"
-	"github.com/KasperLiu/gobcos/common/hexutil"
-	"github.com/KasperLiu/gobcos/common/math"
+	"github.com/yekai1003/gobcos/common"
+	"github.com/yekai1003/gobcos/common/hexutil"
+	"github.com/yekai1003/gobcos/common/math"
 )
 
 var (

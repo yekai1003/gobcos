@@ -19,7 +19,7 @@ import (
   "fmt"
   "os"
 
-  "github.com/KasperLiu/gobcos/client"
+  "github.com/yekai1003/gobcos/client"
   "github.com/spf13/cobra"
   "github.com/spf13/viper"
 
@@ -58,12 +58,12 @@ service and the contract operations(e.g. deploying && writting contracts).
 Also, gobcos can be used as a Go package for FISCO BCOS that just simply adding 
 the import statement:
 
-    import "github.com/KasperLiu/gobcos" 
+    import "github.com/yekai1003/gobcos" 
 or 
-    import "github.com/KasperLiu/gobcos/client" # using the client package
+    import "github.com/yekai1003/gobcos/client" # using the client package
 
 Please access the github site for more details:
-    https://github.com/KasperLiu/gobcos.`,
+    https://github.com/yekai1003/gobcos.`,
   // Uncomment the following line if your bare application
   // has an action associated with it:
   //	Run: func(cmd *cobra.Command, args []string) { },

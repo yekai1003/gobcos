@@ -19,9 +19,9 @@ package types
 import (
 	"io"
 	
-	"github.com/KasperLiu/gobcos/common"
-	"github.com/KasperLiu/gobcos/common/hexutil"
-	"github.com/KasperLiu/gobcos/rlp"
+	"github.com/yekai1003/gobcos/common"
+	"github.com/yekai1003/gobcos/common/hexutil"
+	"github.com/yekai1003/gobcos/rlp"
 )
 
 //go:generate gencodec -type Log -field-override logMarshaling -out gen_log_json.go

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/KasperLiu/gobcos/common"
-	"github.com/KasperLiu/gobcos/core/types"
+	"github.com/yekai1003/gobcos/common"
+	"github.com/yekai1003/gobcos/core/types"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.
